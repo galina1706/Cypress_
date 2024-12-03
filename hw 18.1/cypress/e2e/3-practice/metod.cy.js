@@ -91,5 +91,11 @@ it('Have support btn', () => {
    cy.get('a.contacts_link.h4')
          .should('be.visible');
 })
+it('Submit', () => {
+    cy.visit('https://www.saucedemo.com/')
+    cy.get('[data-test="username"]').type('standard_user');
+    cy.get('[data-test="password"]').type('secret_sauce');
+    cy.get('form').submit();
 
+})
 })
