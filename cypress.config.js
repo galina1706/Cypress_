@@ -5,7 +5,7 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
-    specPattern: ['cypress/e2e/**/*.cy.js', 'hw 19.1/cypress/e2e/**/*.cy.js'],
+    specPattern: ['cypress/e2e/**/*.cy.js', 'hw 21.1/cypress/e2e/**/*.cy.js'],
     chromeWebSecurity: false,
         setupNodeEvents(on, config) {
           // Используем значение переменной окружения из командной строки, если оно задано
